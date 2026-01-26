@@ -4,10 +4,24 @@ Dieses Repository enthält die Beispiele und Startdateien für den Kurs **AJAX &
 
 ## Start
 
-1. Repository klonen oder herunterladen
-2. In Laragon den Ordner als Website einrichten (DocumentRoot)
-3. Im Browser öffnen:
+1. VM installieren (Windows 11)
+2. Git herunterladen und installieren
+3. Laragon herunterladen und installieren
+4. In der VM unter `C:\laragon\www\` einen Ordner anlegen: `ajax-jquery-kurs`
+5. Diesen Ordner in PowerShell oder VS Code Terminal öffnen und git initialisieren
+   - `git init`
+6. Git Benutzernamen und Passwort gegenenenfalls angeben
+7. Repository klonen oder herunterladen
+8. In Laragon den Ordner als Website einrichten (DocumentRoot)
+9. Im Browser öffnen:
    - http://ajax-jquery-kurs.test
+
+### Repository klonen
+
+```bash
+  cd ~/ajax-jquery-kurs
+  git https://github.com/jaderbass/ajax-jquery-course-start
+  ```
 
 ## Struktur
 
