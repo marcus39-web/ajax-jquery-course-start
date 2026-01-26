@@ -39,4 +39,4 @@ git https://github.com/jaderbass/ajax-jquery-course-start
   - Network-Tab prüfen
   - PHP-Datei direkt im Browser öffnen (kommt JSON zurück?)
 
-Viel Erfolg!
+Author Marcus Reiser 2026-01-26
