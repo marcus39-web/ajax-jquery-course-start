@@ -71,7 +71,7 @@ if (is_dir($trainerDir) && is_file($secretFile) && is_file($trainerView)) {
     function listHtml(string $path): array
     {
       return array_values(array_filter(scandir($path), function ($item) use ($path) {
-        return is_file($path . '/' . $item) && str_ends_with($item, '.html');
+        return is_file($path . '/' . $item) && (str_ends_with($item, '.html') || str_ends_with($item, '.php'));
       }));
     }
 
